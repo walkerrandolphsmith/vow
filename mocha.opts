@@ -1,0 +1,7 @@
+--recursive
+--compilers js:babel-core/register
+--require chai
+--require babel-polyfill
+--ui bdd
+--globals $
+--timeout 200

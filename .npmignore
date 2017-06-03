@@ -1,0 +1,18 @@
+# IDE
+.vscode
+.idea
+
+# LINT
+.eslintcache
+
+# NODE
+*.log
+node_modules/
+
+# SRC
+src/
+.eslintignore
+.eslintrc
+wallaby.js
+webpack.config.js
+yarn.lock

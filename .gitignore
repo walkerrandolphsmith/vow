@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+
+# IDE 
+.vscode
+.idea
+
+# LINT 
+.eslintcache
+
+# NODE 
+*.log
+node_modules/
+
+# DIST 
+index.js

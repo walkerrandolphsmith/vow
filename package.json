@@ -1,0 +1,43 @@
+{
+  "name": "@quillio/vow",
+  "version": "0.0.1",
+  "description": "Common functions related to Promises",
+  "main": "dist/index.js",
+  "scripts": {
+    "lint": "eslint -c .eslintrc --cache .",
+    "build": "webpack --config ./webpack.config.js",
+    "test": "NODE_ENV=test mocha --opts ./mocha.opts -R spec ./src/**/*.test.js"
+  },
+  "keywords": [
+    "Promise",
+    "A+"
+  ],
+  "author": "public@quillio.io",
+  "contributors": [
+    "walkerrandolphsmith@gmail.com"
+  ],
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "6.3.26",
+    "babel-core": "6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "7.0.0",
+    "babel-plugin-rewire": "^1.1.0",
+    "babel-polyfill": "6.23.0",
+    "babel-preset-es2015": "6.3.13",
+    "babel-preset-stage-0": "6.3.13",
+    "chai": "^3.5.0",
+    "eslint": "^2.5.1",
+    "mocha": "^3.2.0",
+    "sinon": "^2.3.2",
+    "webpack": "^2.5.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0"
+    ]
+  },
+  "repository": "git@bitbucket.org:quillio/vow.git"
+}
