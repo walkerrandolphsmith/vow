@@ -13,4 +13,4 @@
 node_modules/
 
 # DIST 
-index.js
+dist/
